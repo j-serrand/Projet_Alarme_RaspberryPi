@@ -13,6 +13,7 @@ Role ........ : Transmet en 433MHz grâce à la bibliothèque VirtualWire une ch
                 http://playground.arduino.cc/Main/FlexiTimer2
                 
 Auteur ...... : J.Serrand
+Mail ........ : joris.serrand@rascol.net
 Version ..... : V1.0 du 17/02/16
 Licence ..... :  Copyright (C) 2016  Joris SERRAND
                  
