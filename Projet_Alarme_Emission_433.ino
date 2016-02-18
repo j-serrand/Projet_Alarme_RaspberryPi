@@ -54,7 +54,7 @@ void setup()
     pinMode(CapteurPin,INPUT); //Déclaration de la pin du capteur en entrée
 
     //Déclaration de l'interrupt sur la pin 2 lors d'un front montant
-    attachInterrupt(digitalPinToInterrupt(2), macro_interrupt_capteur, RISING);
+    attachInterrupt(digitalPinToInterrupt(CapteurPin), macro_interrupt_capteur, RISING);
     
     FlexiTimer2::set(5000, macro_interrupt_timer); // Déclaration du timer pour envoi mess de repos toute les 30s
     FlexiTimer2::start();//Démarrage du timer de messages de repos
