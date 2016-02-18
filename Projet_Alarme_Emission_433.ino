@@ -36,7 +36,7 @@ Compilation . : Avec l'IDE Arduino
 #include <VirtualWire.h>//Bibliothèque pour utiliser transmission 433Mhz
 #include <FlexiTimer2.h>//Bibliothèque pour utiliser timer
 
-const int CapteurPin=8; //Déclaration de la pin du capteur
+const int CapteurPin=2; //Déclaration de la pin d'interruption où est connecté le capteur 
 const char* msg_alerte = "Alerte_capteur_ILS";
 const char* msg_repos = "Repos_capteur_ILS";
 
